@@ -1,0 +1,11 @@
+# EventStore Docker Image
+
+## Build the image
+```
+docker build -t <image-name> .
+```
+
+## Run the image
+```
+docker run -p 1113:1113 -p 2113:2113 -itd <image-name>
+```
